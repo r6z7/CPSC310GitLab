@@ -19,7 +19,6 @@ public class User implements IUser {
 	
 	public User()
 	{
-		
 	}
 	
 	@Override
@@ -45,22 +44,19 @@ public class User implements IUser {
 	@Override
 	public void setLanguage(String language) {
 		this.language = language;
-		
 	}
 
 	@Override
 	public void setName(String name) {
-		this.name = name;
-		
+		this.name = name;		
 	}
 
 	@Override
 	public void addItemToWishList(ProductItem o) {
-		this.wishList.add(o);
-		
+		this.wishList.add(o);		
 	}
-	@Override
 	
+	@Override
 	public void removeItemFromWishList(ProductItem o) {
 		this.wishList.remove(o);
 	}
@@ -68,11 +64,12 @@ public class User implements IUser {
 	@Override
 	public void addItemToShoppingCart(ProductItem o) {
 		this.shoppingCart.add(o);
-		
 	}
 
 	@Override
 	public void removeItemFromShoppingCart(ProductItem o) {
 		this.shoppingCart.remove(o);
 	}
+
+	
 }
