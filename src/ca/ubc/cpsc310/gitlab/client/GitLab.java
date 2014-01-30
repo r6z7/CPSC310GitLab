@@ -57,14 +57,14 @@ public class GitLab implements EntryPoint {
 
 			@Override
 			public void onFailure(Throwable caught) {
-				Window.alert("There is an error! " + caught.getClass() + " : " + caught.getMessage());
+				Window.alert("Oh no, an error occured! " + caught.getClass() + " : " + caught.getMessage());
 				
 			}
 
 			@Override
 			public void onSuccess(List<IUser> result) {
 				displayUsers(result);
-				Window.alert("result.size() + entries in list");
+				Window.alert("There was an error! " + "result.size() + entries in list");
 				
 			}});
 	}
