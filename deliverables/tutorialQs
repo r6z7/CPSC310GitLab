@@ -1,0 +1,30 @@
+CPSC 310 Git Tutorial Questions
+
+Q3.1.  commit fa379b94707daf00430b3e......
+       Author:  Steve Ramage <seramage@cs.ubc.ca>
+       Date:     Sat Jan 12 14:40:17 2013 -800
+       Added gitignore
+
+Q3.2.  GitLab.java
+       User.java
+
+Q3.3.  No conflicts
+
+Q4.1.  commit 119c13436f8520cb......
+       Author:  Steve Ramage <seramage@cs.ubc.ca>
+       Date:     Sun Jan 6 19?18?35 2013 -800
+       Implemented IUser Interface and implemented parsing on the server
+
+Q4.2.  GitLab.java
+       User.java
+       LoadUsersService.java (new)
+       LoadUsersServiceAsync.java (new
+       LoadUserServiceImpl.java (new)
+
+Q4.3.  Yes there were conflicts
+       Working on two different solution options at one time
+       Could have branched out earlier (from master into async and another branch, then chosen only one to merge into master)
+
+Q5.1.  commit 4dcfeba377c6964347......
+       Author: Steve Ramage <seramage@cs.ubc.ca>
+       Date:    Sun Jan 6 18:58:55 2013 -800
