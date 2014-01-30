@@ -57,14 +57,18 @@ public class GitLab implements EntryPoint {
 
 			@Override
 			public void onFailure(Throwable caught) {
-				Window.alert("Oh no, an error occured! " + caught.getClass() + " : " + caught.getMessage());
+
+				Window.alert("YOU SCREWED UP! " + caught.getClass() + " : " + caught.getMessage());
+
 				
 			}
 
 			@Override
 			public void onSuccess(List<IUser> result) {
 				displayUsers(result);
+
 				Window.alert("There was an error! " + "result.size() + entries in list");
+
 				
 			}});
 	}
@@ -85,6 +89,7 @@ public class GitLab implements EntryPoint {
 		flexTable.setText(0,2, "Shopping Cart Size");
 		flexTable.setText(0,3, "Wish List Size");
 		flexTable.setText(0,4, "Random New Column To Cause Problems");
+		flexTable.setText(0,5, "The Special Column");
 		flexTable.setStyleName("centered-table", true);
 		
 		for(int i=0; i < users.size(); i++)
